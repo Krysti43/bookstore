@@ -18,6 +18,7 @@ Aplikacja biblioteki umożliwiająca:
 - Flyway
 - Docker
 - Swagger
+- JUnit
 - JaCoCo
 
 ## Uruchomienie
