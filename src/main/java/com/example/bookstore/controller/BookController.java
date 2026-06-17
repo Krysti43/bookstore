@@ -1,13 +1,23 @@
 package com.example.bookstore.controller;
 
+import com.example.bookstore.entity.Book;
+import com.example.bookstore.service.BookService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 public class BookController {
 
+    private final BookService bookService;
+
+    public BookController(BookService bookService) {
+        this.bookService = bookService;
+    }
+
     @GetMapping("/books")
-    public String books() {
-        return "Books endpoint";
+    public List<Book> getBooks() {
+        return bookService.getAllBooks();
     }
 }
