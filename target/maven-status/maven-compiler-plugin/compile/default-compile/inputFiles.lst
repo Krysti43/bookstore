@@ -16,6 +16,7 @@
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/repository/ReservationRepository.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/repository/RoleRepository.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/repository/UserRepository.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/security/CustomUserDetailsService.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/service/AuthService.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/service/BookService.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/service/NotificationService.java

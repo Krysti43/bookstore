@@ -15,7 +15,6 @@ public class SecurityConfig {
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-
                         .requestMatchers(
                                 "/auth/register",
                                 "/swagger-ui/**",
@@ -24,9 +23,9 @@ public class SecurityConfig {
 
                         .requestMatchers("/books/**").permitAll()
 
-                        .requestMatchers("/reservations/**").permitAll()
+                        .requestMatchers("/reservations/**").hasAnyRole("USER", "ADMIN")
 
-                        .requestMatchers("/admin/**").authenticated()
+                        .requestMatchers("/admin/**").hasRole("ADMIN")
 
                         .anyRequest().authenticated()
                 )
