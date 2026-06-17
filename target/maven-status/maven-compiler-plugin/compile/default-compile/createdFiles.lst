@@ -8,6 +8,7 @@ com/example/bookstore/service/BookService.class
 com/example/bookstore/controller/AuthController.class
 com/example/bookstore/dto/CreateReservationRequest.class
 com/example/bookstore/BookstoreApplication.class
+com/example/bookstore/config/SecurityConfig.class
 com/example/bookstore/repository/UserRepository.class
 com/example/bookstore/repository/RoleRepository.class
 com/example/bookstore/repository/ReservationRepository.class

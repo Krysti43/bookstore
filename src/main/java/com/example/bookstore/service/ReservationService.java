@@ -53,4 +53,14 @@ public class ReservationService {
     public List<Reservation> getAllReservations() {
         return reservationRepository.findAll();
     }
+    public Reservation updateReservationStatus(Long reservationId,
+                                               ReservationStatus status) {
+
+        Reservation reservation = reservationRepository.findById(reservationId)
+                .orElseThrow(() -> new RuntimeException("Reservation not found"));
+
+        reservation.setStatus(status);
+
+        return reservationRepository.save(reservation);
+    }
 }
