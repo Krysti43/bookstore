@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BookController {
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "Bookstore API";
+    @GetMapping("/books")
+    public String books() {
+        return "Books endpoint";
     }
 }

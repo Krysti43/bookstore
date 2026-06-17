@@ -1,2 +1,3 @@
 com/example/bookstore/BookstoreApplication.class
 com/example/bookstore/controller/BookController.class
+com/example/bookstore/entity/Book.class
