@@ -1,0 +1,8 @@
+/var/home/krystian/IdeaProjects/bookstoreproject/src/test/java/com/example/bookstore/service/AdminBookControllerTest.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/test/java/com/example/bookstore/service/AdminReservationControllerTest.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/test/java/com/example/bookstore/service/AuthControllerTest.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/test/java/com/example/bookstore/service/AuthServiceTest.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/test/java/com/example/bookstore/service/BookControllerTest.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/test/java/com/example/bookstore/service/BookServiceTest.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/test/java/com/example/bookstore/service/ReservationControllerTest.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/test/java/com/example/bookstore/service/ReservationServiceTest.java
