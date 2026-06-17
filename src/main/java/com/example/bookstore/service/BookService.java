@@ -18,4 +18,7 @@ public class BookService {
     public List<Book> getAllBooks() {
         return bookRepository.findAll();
     }
+    public Book createBook(Book book) {
+        return bookRepository.save(book);
+    }
 }
