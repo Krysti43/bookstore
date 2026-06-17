@@ -1,9 +1,12 @@
 com/example/bookstore/entity/Reservation.class
 com/example/bookstore/dto/RegisterRequest.class
 com/example/bookstore/entity/User.class
+com/example/bookstore/service/ReservationService.class
 com/example/bookstore/repository/BookRepository.class
+com/example/bookstore/controller/ReservationController.class
 com/example/bookstore/service/BookService.class
 com/example/bookstore/controller/AuthController.class
+com/example/bookstore/dto/CreateReservationRequest.class
 com/example/bookstore/BookstoreApplication.class
 com/example/bookstore/repository/UserRepository.class
 com/example/bookstore/repository/RoleRepository.class
