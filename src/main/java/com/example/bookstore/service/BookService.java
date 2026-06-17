@@ -52,4 +52,7 @@ public class BookService {
 
         bookRepository.delete(book);
     }
+    public List<Book> searchBooks(String title) {
+        return bookRepository.findByTitleContainingIgnoreCase(title);
+    }
 }
