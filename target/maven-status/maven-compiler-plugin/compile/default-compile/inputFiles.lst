@@ -1,3 +1,4 @@
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/BookstoreApplication.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/controller/BookController.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/entity/Book.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/repository/BookRepository.java
