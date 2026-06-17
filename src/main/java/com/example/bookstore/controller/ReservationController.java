@@ -21,14 +21,5 @@ public class ReservationController {
     public Reservation createReservation(@RequestBody CreateReservationRequest request) {
         return reservationService.createReservation(request);
     }
-    @GetMapping
-    public List<Reservation> getAllReservations() {
-        return reservationService.getAllReservations();
-    }
-    @PutMapping("/{id}/status")
-    public Reservation updateStatus(@PathVariable Long id,
-                                    @RequestParam ReservationStatus status) {
 
-        return reservationService.updateReservationStatus(id, status);
-    }
 }
