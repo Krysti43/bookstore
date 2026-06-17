@@ -3,9 +3,12 @@
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/controller/BookController.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/dto/RegisterRequest.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/entity/Book.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/entity/Reservation.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/entity/Role.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/entity/User.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/enums/ReservationStatus.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/repository/BookRepository.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/repository/ReservationRepository.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/repository/RoleRepository.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/repository/UserRepository.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/service/AuthService.java

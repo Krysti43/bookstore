@@ -1,3 +1,4 @@
+com/example/bookstore/entity/Reservation.class
 com/example/bookstore/dto/RegisterRequest.class
 com/example/bookstore/entity/User.class
 com/example/bookstore/repository/BookRepository.class
@@ -6,7 +7,9 @@ com/example/bookstore/controller/AuthController.class
 com/example/bookstore/BookstoreApplication.class
 com/example/bookstore/repository/UserRepository.class
 com/example/bookstore/repository/RoleRepository.class
+com/example/bookstore/repository/ReservationRepository.class
 com/example/bookstore/service/AuthService.class
 com/example/bookstore/entity/Book.class
 com/example/bookstore/controller/BookController.class
+com/example/bookstore/enums/ReservationStatus.class
 com/example/bookstore/entity/Role.class
