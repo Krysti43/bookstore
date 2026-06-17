@@ -18,6 +18,7 @@ Aplikacja biblioteki umożliwiająca:
 - Flyway
 - Docker
 - Swagger
+- JUnit
 - JaCoCo
 
 ## Uruchomienie
@@ -83,3 +84,8 @@ haslo: bookstore_pass
 
 ## Pokrycie Testów
 ![pokrycie testów](testy.png)
+
+## Wynik testów w moim przypadku
+```bash
+firefox /var/home/krystian/IdeaProjects/bookstoreproject/target/site/jacoco/index.html
+```
