@@ -11,16 +11,23 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
+
                         .requestMatchers(
                                 "/auth/register",
                                 "/swagger-ui/**",
                                 "/v3/api-docs/**"
                         ).permitAll()
+
                         .requestMatchers("/books/**").permitAll()
+
                         .requestMatchers("/reservations/**").permitAll()
+
+                        .requestMatchers("/admin/**").authenticated()
+
                         .anyRequest().authenticated()
                 )
                 .httpBasic(Customizer.withDefaults());

@@ -21,3 +21,4 @@ com/example/bookstore/service/AuthService.class
 com/example/bookstore/entity/Book.class
 com/example/bookstore/controller/BookController.class
 com/example/bookstore/enums/ReservationStatus.class
+com/example/bookstore/controller/AdminBookController.class

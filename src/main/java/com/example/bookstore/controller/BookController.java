@@ -21,22 +21,9 @@ public class BookController {
     public List<Book> getBooks() {
         return bookService.getAllBooks();
     }
-    @PostMapping("/books")
-    public Book createBook(@RequestBody Book book) {
-        return bookService.createBook(book);
-    }
     @GetMapping("/books/{id}")
     public Book getBookById(@PathVariable Long id) {
         return bookService.getBookById(id);
     }
-    @PutMapping("/books/{id}")
-    public Book updateBook(@PathVariable Long id,
-                           @RequestBody Book book) {
 
-        return bookService.updateBook(id, book);
-    }
-    @DeleteMapping("/books/{id}")
-    public void deleteBook(@PathVariable Long id) {
-        bookService.deleteBook(id);
-    }
 }
