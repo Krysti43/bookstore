@@ -3,6 +3,8 @@ package com.example.bookstore.service;
 import com.example.bookstore.entity.Book;
 import com.example.bookstore.repository.BookRepository;
 import org.springframework.stereotype.Service;
+import com.example.bookstore.repository.ReservationRepository;
+
 
 import java.util.List;
 
@@ -10,9 +12,12 @@ import java.util.List;
 public class BookService {
 
     private final BookRepository bookRepository;
+    private final ReservationRepository reservationRepository;
 
-    public BookService(BookRepository bookRepository) {
+    public BookService(BookRepository bookRepository,
+                       ReservationRepository reservationRepository) {
         this.bookRepository = bookRepository;
+        this.reservationRepository = reservationRepository;
     }
 
     public List<Book> getAllBooks() {
@@ -36,5 +41,15 @@ public class BookService {
         book.setQuantity(updatedBook.getQuantity());
 
         return bookRepository.save(book);
+    }
+    public void deleteBook(Long id) {
+        Book book = bookRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Book not found"));
+
+        if (reservationRepository.existsByBookId(id)) {
+            throw new RuntimeException("Cannot delete book with reservations");
+        }
+
+        bookRepository.delete(book);
     }
 }
