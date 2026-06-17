@@ -29,4 +29,10 @@ public class BookController {
     public Book getBookById(@PathVariable Long id) {
         return bookService.getBookById(id);
     }
+    @PutMapping("/books/{id}")
+    public Book updateBook(@PathVariable Long id,
+                           @RequestBody Book book) {
+
+        return bookService.updateBook(id, book);
+    }
 }
