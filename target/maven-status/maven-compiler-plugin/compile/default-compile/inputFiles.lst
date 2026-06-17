@@ -1,6 +1,7 @@
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/BookstoreApplication.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/config/SecurityConfig.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/controller/AdminBookController.java
+/var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/controller/AdminReservationController.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/controller/AuthController.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/controller/BookController.java
 /var/home/krystian/IdeaProjects/bookstoreproject/src/main/java/com/example/bookstore/controller/ReservationController.java
