@@ -4,6 +4,7 @@ import com.example.bookstore.entity.Book;
 import com.example.bookstore.service.BookService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,5 +20,9 @@ public class BookController {
     @GetMapping("/books")
     public List<Book> getBooks() {
         return bookService.getAllBooks();
+    }
+    @PostMapping("/books")
+    public Book createBook(@RequestBody Book book) {
+        return bookService.createBook(book);
     }
 }
