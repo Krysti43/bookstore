@@ -5,6 +5,7 @@ com/example/bookstore/strategy/EmailNotificationStrategy.class
 com/example/bookstore/repository/BookRepository.class
 com/example/bookstore/service/BookService.class
 com/example/bookstore/controller/AuthController.class
+com/example/bookstore/security/CustomUserDetailsService.class
 com/example/bookstore/strategy/NotificationStrategy.class
 com/example/bookstore/BookstoreApplication.class
 com/example/bookstore/repository/UserRepository.class
