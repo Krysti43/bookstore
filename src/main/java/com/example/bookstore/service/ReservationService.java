@@ -9,6 +9,7 @@ import com.example.bookstore.repository.BookRepository;
 import com.example.bookstore.repository.ReservationRepository;
 import com.example.bookstore.repository.UserRepository;
 import org.springframework.stereotype.Service;
+import java.util.List;
 
 import java.time.LocalDateTime;
 
@@ -48,5 +49,8 @@ public class ReservationService {
         bookRepository.save(book);
 
         return reservationRepository.save(reservation);
+    }
+    public List<Reservation> getAllReservations() {
+        return reservationRepository.findAll();
     }
 }
