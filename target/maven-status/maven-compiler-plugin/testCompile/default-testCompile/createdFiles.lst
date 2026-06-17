@@ -1,0 +1,8 @@
+com/example/bookstore/controller/BookControllerTest.class
+com/example/bookstore/controller/AdminBookControllerTest.class
+com/example/bookstore/service/ReservationServiceTest.class
+com/example/bookstore/controller/ReservationControllerTest.class
+com/example/bookstore/service/AuthServiceTest.class
+com/example/bookstore/service/BookServiceTest.class
+com/example/bookstore/controller/AdminReservationControllerTest.class
+com/example/bookstore/controller/AuthControllerTest.class
