@@ -25,4 +25,16 @@ public class BookService {
         return bookRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Book not found"));
     }
+    public Book updateBook(Long id, Book updatedBook) {
+
+        Book book = bookRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Book not found"));
+
+        book.setTitle(updatedBook.getTitle());
+        book.setAuthor(updatedBook.getAuthor());
+        book.setIsbn(updatedBook.getIsbn());
+        book.setQuantity(updatedBook.getQuantity());
+
+        return bookRepository.save(book);
+    }
 }
